@@ -41,7 +41,7 @@ img{
 	border:5px solid rgba(255,255,255,1);
 }
 button{
-	   width:12em;
+	   width:30%;
 	   height:6em;
 	   font-size:10px;
 	   color:white;
@@ -70,7 +70,7 @@ h1,h2 ,h3,h4{
 	background-position: 100% -500%;
 	background-repeat: no-repeat;
 	height: 300px;
-	width:500px;
+	width:100%;
 	position: relative;
 }
 .photo span {
@@ -78,7 +78,7 @@ h1,h2 ,h3,h4{
 	color: white;
 	display: block;
 	left: 50%;
-	margin-left: -200px;
+	margin-left: -50%;
 	font-size: 38px;
 	padding: 10px;
 	position: absolute;
