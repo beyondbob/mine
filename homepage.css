@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: helvetica, arial;
+	padding-top: 0px;
+	background-color:#C1FFC1;
+}
+.div1{
+	float:left;
+	width:20%;
+	margin:10% 5%;
+	border:5px solid lightgreen;
+	box-shadow:10px 10px 10px black;
+	border-radius:10px 10px 10px 10px;
+	position:fixed;
+}
+.div2{
+	float:left;
+	width:20%;
+	margin:10% 5%;
+	border:5px solid lightgreen;
+	box-shadow:10px 10px 10px black;
+	border-radius:10px 10px 10px 10px;
+}
+.div3{
+	float:right;
+	width:30%;
+	margin:4% 68%;
+	border:5px solid lightgreen;
+	box-shadow:10px 10px 10px black;
+	border-radius:10px 10px 10px 10px;
+	position:fixed;
+}
+img{
+	width:50%;
+	height:175px;
+	margin-top:10%;
+	margin-left:20%;
+	border:5px solid rgba(255,255,255,1);
+}
+button{
+	   width:12em;
+	   height:6em;
+	   font-size:10px;
+	   color:white;
+	   margin-top:5%;
+	   margin-left:35%;
+	   background-image:url(picture/timg.jpg);
+	   background-size:100% 100%;
+	   box-shadow:10px 10px 10px gray;
+	   border-radius:10px 10px 10px 10px;
+	   cursor:pointer;
+	   float:left;
+}
+h1,h2 ,h3,h4{
+	margin-top:2%;
+	color: orange;
+	font-weight: normal;
+	left: 0;
+	line-height: 40px;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+.photo {
+	background-attachment: fixed;
+	background-position: 100% -500%;
+	background-repeat: no-repeat;
+	height: 300px;
+	width:500px;
+	position: relative;
+}
+.photo span {
+	bottom: 0;
+	color: white;
+	display: block;
+	left: 50%;
+	margin-left: -200px;
+	font-size: 38px;
+	padding: 10px;
+	position: absolute;
+	text-shadow: 0 2px 0 black, 0 0 10px black;
+	width: 1280px;
+}
+.picture1 {
+	background-image: url(http://pic1.win4000.com/wallpaper/8/5742b8fa8f66e.jpg);
+}
+.picture2 {
+	background-image: url(http://pic1.win4000.com/wallpaper/0/552e13c06e5ca.jpg);
+}
+.picture3 {
+	background-image: url(http://pic1.win4000.com/wallpaper/7/5469a10dd59e3.jpg);
+}
+.picture4{
+	background-image: url(http://img1.3lian.com/2015/a1/48/d/187.jpg);
+}
+.picture5{
+	background-image: url(http://img2.3lian.com/2014/f2/161/d/117.jpg);
+}
+.picture6{
+	background-image: url(http://pic1.win4000.com/wallpaper/9/537f121ddfd42.jpg);
+}
+.picture7{
+	background-image: url(http://pic1.win4000.com/wallpaper/0/57a3116dc91ec.jpg);
+}
