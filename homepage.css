@@ -3,14 +3,19 @@
 	padding: 0;
 }
 body {
+	width:1200px
 	font-family: helvetica, arial;
 	padding-top: 0px;
 	background-color:#C1FFC1;
+	overflow-x:hidden;
+}
+.div{
+	padding-left:10%;
 }
 .div1{
 	float:left;
-	width:20%;
-	margin:10% 5%;
+	width:300px;
+	margin:150px 25px;
 	border:5px solid lightgreen;
 	box-shadow:10px 10px 10px black;
 	border-radius:10px 10px 10px 10px;
@@ -18,67 +23,64 @@ body {
 }
 .div2{
 	float:left;
-	width:30%;
-	margin:10% 5%;
+	width:500px;
+	margin:50px 375px;
 	border:5px solid lightgreen;
 	box-shadow:10px 10px 10px black;
 	border-radius:10px 10px 10px 10px;
 }
 .div3{
 	float:right;
-	width:30%;
-	margin:4% 68%;
+	width:400px;
+	margin:100px 925px;
 	border:5px solid lightgreen;
 	box-shadow:10px 10px 10px black;
 	border-radius:10px 10px 10px 10px;
 	position:fixed;
 }
 img{
-	width:50%;
+	width:175px;
 	height:175px;
 	margin-top:10%;
-	margin-left:20%;
 	border:5px solid rgba(255,255,255,1);
 }
 button{
-	   width:30%;
+	   width:12em;
 	   height:6em;
-	   font-size:10px;
+	   font-size:0.55em;
 	   color:white;
 	   margin-top:5%;
-	   margin-left:35%;
-	   background-image:url(picture/timg.jpg);
+	   background-image:url(./picture/timg.jpg);
 	   background-size:100% 100%;
 	   box-shadow:10px 10px 10px gray;
 	   border-radius:10px 10px 10px 10px;
 	   cursor:pointer;
-	   float:left;
 }
-h1,h2 ,h3,h4{
-	margin-top:2%;
+h1,h2,h3,h4{
 	color: orange;
 	font-weight: normal;
 	left: 0;
 	line-height: 40px;
-	text-align: center;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 }
+h2 ,h3,h4{
+	text-align: center;
+}
 .photo {
 	background-attachment: fixed;
-	background-position: 100% -500%;
+	background-position: 50% 0;
 	background-repeat: no-repeat;
-	height: 300px;
-	width:100%;
+	height: 450px;
 	position: relative;
 }
 .photo span {
 	bottom: 0;
 	color: white;
 	display: block;
-	left: 50%;
-	margin-left: -50%;
+	left: 500px;
+	margin-left: -1100px;
 	font-size: 38px;
 	padding: 10px;
 	position: absolute;
