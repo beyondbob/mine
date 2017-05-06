@@ -9,8 +9,10 @@ body {
 	background-color:#C1FFC1;
 	overflow-x:hidden;
 }
-.div{
+#div{
+	width:80%;
 	padding-left:10%;
+	float:left
 }
 .div1{
 	float:left;

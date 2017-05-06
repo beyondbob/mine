@@ -1,7 +1,10 @@
 body {
+	width:1400px;
+	margin:0 auto;
 	height:100%;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:  Helvetica, Arial, sans-serif;
 	background-color:#F0FFF0;
+	overflow-x:hidden;
 }
 .div2{
 	float:left;
@@ -17,7 +20,7 @@ button{
 	   font-size:0.55em;
 	   color:white;
 	   margin-top:5%;
-	   margin-left:20%;
+	   margin-left:18%;
 	   background-image:url(./picture/timg.jpg);
 	   background-size:100% 100%;
 	   box-shadow:10px 10px 10px gray;
