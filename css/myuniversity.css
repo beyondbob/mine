@@ -3,6 +3,8 @@ body{
 	margin:0 auto;
 	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
 	background-attachment:fixed;
+	background-repeat:no-repeat;
+	font-size:85%;
 }
 div{
 	float:left;
@@ -21,23 +23,25 @@ div{
 	   cursor:pointer;
 }
 p{
+	font-size:1.2em;
 	display:block;
 }
 #div{
 	width:300px;
-	margin:7% 10%;
+	margin:7% 0% 0% 10%;
 	float:left;
+	
 }
 #div0{
 	width:350px;
     float:left;
-    margin-top:7%;
-	margin-right:10%;	
+	margin:7% 0% 0% 10%;	
 }
 #div00{
 	width:350px;
     float:left;
-    margin-top:7%;	
+	clear:left;
+	margin:7% 0% 0% 10%;	
 }
 #div1{
 	width:300px;
@@ -99,7 +103,7 @@ p{
 	border-radius:5%;
     float:left;
     margin-top:5%;
-	padding:2% 8%;
+	padding:2% 20px;
 	background-color:#90EE90;
 	box-shadow:10px 10px 10px black;
 }
@@ -129,8 +133,7 @@ p{
 	height:500px;
 	border:2px solid white;	
 	border-radius:5%;
-    float:left;
-	margin-top:10%;
+    float:left;	
 	box-shadow:10px 10px 10px black;
 }
 #div10{
@@ -193,4 +196,22 @@ p{
 	margin-top:1%;
 	padding:1% 0% 1% 0%;
 	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+}
+@media ( max-width: 2000px ) {
+	#div13{
+		float:left;
+		margin:7% 0% 0% 10%;
+	}
+	#div9{
+			margin:7% 0% 0% 10%;
+	}
+@media ( max-width: 1500px ) {
+	#div13{
+		float:left;
+		clear:left;
+		margin:7% 0% 0% 8%;
+	}
+		#div9{
+			margin:7% 0% 0% 8%;
+	}
 }

@@ -1,29 +1,11 @@
-body{
-	background-image:url(http://pic1.5442.com/2015/0703/02/02.jpg);
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-}
-h1,h2,h3{
-	color:white;
-}
-div{
-	text-align:center;
-}
-#div1{
-	margin-top:3%;
-}
-#div2{
-	margin-top:1%;
-}
-#div3{
-	margin-top:2%;
-	height:75px;
+
+h2{
+	margin:0 40%;
 }
 #div4{
 	width:100px;
 	height:100px;
-	margin-left:47%;
+	margin-left:40%;
 	border-radius:50%;
 	border:3px solid white;
 	background-image:url(../images/头像.jpg);
@@ -53,7 +35,7 @@ input{
 #input3{
 	width:430px;
 	height:40px;
-	color:white;
+	color:black;
 	background-image:url(../images/send1.png);
 	background-position:95% 50%;
 	padding:2px 75px;
@@ -77,4 +59,56 @@ ul{
 }
 li{
 	display:inline;
+}
+@media ( max-width: 2000px ) {
+	body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image:url(http://pic1.5442.com/2015/0703/02/02.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+h1,h2,h3{
+	color:white;
+}
+.div{
+	margin-top:2%;
+}
+
+#div1{
+	margin-top:3%;
+}
+#div2{
+	margin-top:1%;
+}
+#div3{
+	margin-top:2%;
+	height:75px;
+}
+}
+@media ( max-width: 1200px ) {
+		body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494856712135&di=e0aa133871b136f9c26779729dccdfe6&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F120907%2F219077-120ZGP53071.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+h1,h2,h3{
+	color:yellow;
+}
+.div{
+	margin-top:15%;
+}
+
+#div1{
+	margin-top:5%;
+}
+#div2{
+	margin-top:5%;
+}
+#div3{
+	margin-top:10%;
+	height:100px;
+}
 }

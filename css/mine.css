@@ -3,16 +3,15 @@ body {
 	margin:0% auto;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	overflow-x:hidden;
-	background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
 	background-repeat:no-repeat;
-	background-size:100% 100%;
+    background-size:100% 100%;
 	background-attachment:fixed;
 } 
 #div1{
 	float:left;
 	width:900px;
-	margin:10% 23.5% 0% 23.5%;
-	border:5px solid #E6E6FA;
+	margin-top:10%;
+	border:5px solid #20B2AA;
 	box-shadow:10px 10px 10px black;
 	border-radius:10px 10px 10px 10px;
 	background-color:rgba(255, 248 ,220,0.9);
@@ -27,9 +26,6 @@ body {
 	background-image:url(../images/头像.jpg);
 	background-position:40% 15%;
 	cursor:pointer;
-}
-#div3{
-	
 }
 p{
 	font-size:25px;
@@ -78,4 +74,14 @@ h1,h2,h3,h4,h5{
 	margin-top:1%;
 	padding:1% 0% 1% 0%;
 	background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
+}
+@media ( max-width: 2000px ) {
+	body{
+		background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
+}
+}
+@media ( max-width: 1200px ) {
+	body{
+		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494858604975&di=933b201cd68f8153159f6a6f43f44488&imgtype=0&src=http%3A%2F%2Ffile06.16sucai.com%2F2016%2F0227%2F99f0a785d403bd63d02b0a426ee5fba5.jpg);
+	}
 }
