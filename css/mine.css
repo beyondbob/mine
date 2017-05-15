@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5{
 	padding:1% 0% 1% 0%;
 	background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
 }
-@media ( max-width: 3000px ) {
+@media ( max-width: 2000px ) {
 	body{
 		background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
 }
