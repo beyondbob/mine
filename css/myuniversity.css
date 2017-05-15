@@ -227,16 +227,17 @@ p{
 		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494865372368&di=553b1682137e1c88230a07fbaeefa4e0&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110404%2F10023-110404034P737.jpg);
 		background-attachment:fixed;
 		background-repeat:no-repeat;
-		background-size:100% 100%;
+		background-size:100% 110%;
 	}
 	#footer{
 		margin-top:5%;
 		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494865372368&di=553b1682137e1c88230a07fbaeefa4e0&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110404%2F10023-110404034P737.jpg);	
 		background-position:10% 40%;
 		background-size:100%;
+		padding:0 10%;
 	}
 	#body{
 		width:100%;
-		margin:0 10%;
+		padding:0 10%;
 	}
 }
