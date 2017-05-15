@@ -1,48 +1,138 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
 	<head>
-		<title>首页</title>
-		<link href="homepage.css" rel="stylesheet" type="text/css">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/stellar.js"></script>
+		<meta charset="utf-8">
+		<title>Beyondbob's homepage</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/homepage.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/jquery.backstretch.min.js"></script>
+		<script src="js/custom.js"></script>
 	</head>
 	<body>
-	  <div id="div">
-	    <div><h1 style="padding-left:500px;padding-top:50px;">Beyond bob 的主页</h1></div>
-		<div style="text-align:center;">
-	    <div class="div2">
-			<div class="photo picture1" data-stellar-background-ratio="0.5"><span>W</span></div>
-			<div class="photo picture2" data-stellar-background-ratio="0.5"><span>E</span></div>
-			<div class="photo picture3" data-stellar-background-ratio="0.5"><span>L</span></div>
-			<div class="photo picture4" data-stellar-background-ratio="0.5"><span>C</span></div>
-			<div class="photo picture5" data-stellar-background-ratio="0.5"><span>O</span></div>		
-			<div class="photo picture6" data-stellar-background-ratio="0.5"><span>M</span></div>
-			<div class="photo picture7" data-stellar-background-ratio="0.5"><span>E</span></div>
-		</div>	
-		<div class="div1" style="height:400px;">
-		  <h2>欢迎光临</h2><hr>
-		  <h4>点击下方按钮观看我的介绍</h4>
-		  <div style="width:100%;text-align:center;"> 
-				<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1493645549538&di=88dc2db58d8d7dec70246cfc4ba6e99e&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2F1c950a7b02087bf42f1f9e23f0d3572c10dfcf0d.jpg">
-		  </div>
-		   <div style="width:100%;text-align:center;"> 
-				<button onclick="location.href='mine.html'"style="font-size:8px;">自我介绍</button>
-		   </div>
-		</div> 
-		<div class="div3" style="height:500px;">
-		  <h2>留言区</h2><hr>
-		  <form>
-		  <div style="width:100%;text-align:center;"> 
-			   <textarea style="width:70%;height:300px;margin-top:10%;background-color:#B9D3EE;">
-			   </textarea>
-		  </div>
-		  <div style="width:100%;text-align:center;"> 
-			   <button type="submit">提交</button>
-		  </div>
-		  </form>
-		</div> 
-      </div> 
-     </div>	  
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wordpress">
+				<span class="sk-inner-circle"></span>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<img src="images/头像.jpg" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
+						<hr>
+						<h1 class="tm-title bold shadow">Hi, I am Bob</h1>
+						<h1 class="white bold shadow">A Happy Boy </h1>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<div class="about div1">
+						<h2 class="accent">self-introduce</h2>
+						<h4>about myself</h4>
+						<p>I am a hard-working student , I study in HangZhouDianZi University , my major is software engineering . this webpage is used for introduce myself . I am glad you can browse this wbepage . Click the <b style="color:red;">below button</b> to get to know me better .</p>
+						  <a href="mine.html"><button class="button button1"></button></a>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+					<div class="skills div1">
+						<h2 class="white">Skills</h2>
+						<strong>PHP MySQL</strong>
+						<span class="pull-right">1%</span>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary" role="progressbar" 
+									aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width: 1%;"></div>
+								</div>
+								<strong>UI/UX Design</strong>
+								<span class="pull-right">20%</span>
+								<div class="progress">
+									<div class="progress-bar progress-bar-primary" role="progressbar" 
+									aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+									</div>
+									<strong>Bootstrap</strong>
+									<span class="pull-right">0%</span>
+								<div class="progress">
+									<div class="progress-bar progress-bar-primary" role="progressbar" 
+										aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+									</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<div class="education div1">
+						<h2 class="white">Education</h2>
+						<div class="education-content">
+							<h4 class="education-title accent">My University</h4>
+							<div class="education-school">
+							<h5>HangZhouDianZi University</h5><span></span>
+							<h5>2016 September - 2020 June</h5>
+						</div>
+						<p class="education-description">In HangZhouDianZi University , I have a good time in my campus life . My school has a beautiful sights and my schoolfellows are kind and charitable . Click the <b style="color:red;">below button</b> to get to know myschool better .</p>
+						<a href="myuniversity.html"><button class="button button2"></button></a>
+						</div>
+				</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="languages div1">
+						<h2>Interests</h2>
+						<ul>
+							<li>各种球类（虽然学艺不精）</li>
+							<li>各种手游（水平还不错）</li>
+							<li>看各种书（经常去图书馆）</li>
+							<li>唱歌（虽然不好听）</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div class="contact div1">
+						<h2>Contact</h2>
+							<p><i class="fa fa-map-marker"></i> 123 Rama IX Road, Bangkok</p>
+							<p><i class="fa fa-phone"></i> 15057680929</p>
+							<p><i class="fa fa-envelope"></i> bby19981217@163.com</p>
+							<p><i class="fa fa-qq"></i> 2375370976</p>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-12">
+					<div class="experience div1">
+						<h2 class="white">Interests</h2>
+						<div class="experience-content">
+							<h4 class="experience-title accent">Elegant and Helpful</h4>
+							<h5>New Media Company</h5><span></span>
+							<h5>2035 January - 2036 April</h5>
+							<p class="education-description">In order to relieve the pressure , I have some elegant interests . With these interests , I am full of vitality every day . Click the <b style="color:red;">below button</b> to get to know interests better .</p>
+							<button class="button button2"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<ul class="social-icons">
+							<li><a href="#" class="fa fa-facebook"></a></li>
+							<li><a href="#" class="fa fa-google-plus"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-dribbble"></a></li>
+							<li><a href="#" class="fa fa-github"></a></li>
+							<li><a href="#" class="fa fa-behance"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

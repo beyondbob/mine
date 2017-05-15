@@ -1,0 +1,193 @@
+body{
+	width:100%;
+	margin:0 auto;
+	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+	background-attachment:fixed;
+}
+div{
+	float:left;
+}
+.button{
+	   width:80px;
+	   height:40px;
+	   font-size:6px;
+	   color:white;
+	   background-image:url(http://pic38.nipic.com/20140224/11388144_162046679338_2.jpg);
+	   background-size:200% 400%;
+	   background-position:55% 50%;
+	   border-radius:20%;
+	   border:2px solid #F0FFF0;
+	   box-shadow:10px 10px 10px gray;
+	   cursor:pointer;
+}
+#div{
+	width:300px;
+	margin:7% 10%;
+	float:left;
+}
+#div0{
+	width:350px;
+    float:left;
+    margin-top:7%;
+	margin-right:10%;	
+}
+#div00{
+	width:350px;
+    float:left;
+    margin-top:7%;	
+}
+#div1{
+	width:300px;
+	height:300px;
+	border:3px solid black;
+	border-radius:5%;
+	float:left;
+	background-color:#2F4F4F;
+	box-shadow:10px 10px 10px black;
+}
+#div2{
+	width:290px;
+	height:290px;
+	border:2px solid white;
+	border-radius:5%;
+	float:left;
+	margin:1%;
+	background-color:#2F4F4F;
+	text-align:center;
+}
+#div3{
+	width:350px;
+	height:600px;
+	border:2px solid white;	
+	border-radius:5%;
+    float:left;
+	box-shadow:10px 10px 10px black;
+}
+#div4{
+	width:100%;
+	height:300px;
+	background-image:url(../images/picture1.jpg);
+	background-size:100% 100%;	
+	border-radius:5% 5% 0% 0%;
+}
+#div5{
+	width:350px;
+	height:560px;
+	border:1px solid black;	
+	border-radius:5%;
+    float:left;
+	background-image:url(../images/picture4.jpg); 
+	background-size:140% 100%;
+	background-position:50% 10%; 
+	position:absolute;
+	z-index:1;	
+}
+#div14:hover,#div16:hover{
+	-webkit-opacity:0.55;
+    -moz-opacity:0.55;
+    -o-opacity:0.55;
+    -ms-opacity:0.55;
+	opacity:0.55;
+}
+#div6{
+	width:250px;
+	height:250px;
+	border:2px solid white;	
+	border-radius:5%;
+    float:left;
+    margin-top:5%;
+	padding:2% 8%;
+	background-color:#90EE90;
+	box-shadow:10px 10px 10px black;
+}
+#div7{
+	width:300px;
+	height:560px;
+	border:1px solid black;	
+	border-radius:5%;
+    float:left;
+	background-image:url(../images/picture2.jpg); 
+	background-position:10% 10%;
+	position:absolute;
+	z-index:1;	
+}
+#div8{
+	width:350px;
+	height:350px;
+	border:2px solid white;
+	border-radius:5%;
+	float:left;
+	margin-top:30%;
+	background-color:#D1EEEE;
+	box-shadow:10px 10px 10px black;	
+}
+#div9{
+	width:350px;
+	height:500px;
+	border:2px solid white;	
+	border-radius:5%;
+    float:left;
+	margin-top:10%;
+	box-shadow:10px 10px 10px black;
+}
+#div10{
+	width:100%;
+	height:250px;
+	background-image:url(../images/picture3.jpg);
+	background-size:100% 100%;	
+	border-radius:5% 5% 0% 0%;	
+}
+#div11{
+	width:293px;
+	height:286px;
+	border-radius:0% 0% 7% 7%;
+	padding:2% 8%;
+	background-color:#FCFCFC
+}
+#div12{
+	width:293px;
+	height:235px;
+	border-radius:0% 0% 5% 5%;
+	padding:2% 8%;
+	background-color:#FCFCFC
+}
+#div13,#div14{
+	width:352px;
+	height:562px;
+}
+#div15{
+	margin-top:7%;
+}
+#div15,#div16{
+	width:302px;
+	height:562px;
+}
+#div13,#div15{
+	border-radius:5%;
+    float:left;
+	border:2px solid white;	
+	box-shadow:10px 10px 10px black;
+}
+#div14,#div16{
+	height:560px;
+	border:2px solid white;	
+	border-radius:5%;
+    float:left;
+	z-index:50;
+	position:absolute;
+	background-color:black;
+	-webkit-opacity:0.1;
+    -moz-opacity:0.1;
+    -o-opacity:0.1;
+    -ms-opacity:0.1;
+	opacity:0.1;
+}
+#footer{
+	width:100%;
+	float:left;
+	color:red;
+	text-align:center;
+	margin-top:1%;
+	padding:1% 0% 1% 0%;
+	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+}

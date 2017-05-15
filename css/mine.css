@@ -1,0 +1,81 @@
+
+body {
+	margin:0% auto;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	overflow-x:hidden;
+	background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+} 
+#div1{
+	float:left;
+	width:900px;
+	margin:10% 23.5% 0% 23.5%;
+	border:5px solid #E6E6FA;
+	box-shadow:10px 10px 10px black;
+	border-radius:10px 10px 10px 10px;
+	background-color:rgba(255, 248 ,220,0.9);
+}
+#a{
+	margin:0% 10% 0% 0%;
+	float:right;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:3px solid white;
+	background-image:url(../images/头像.jpg);
+	background-position:40% 15%;
+	cursor:pointer;
+}
+#div3{
+	
+}
+p{
+	font-size:25px;
+}
+img{
+	margin-right:2%;
+	border:5px solid rgba(255,255,255,1);
+	float:right;
+
+}
+h1,h2,h3,h4,h5{
+	color:red;
+	white-space:pre;
+}
+#header{
+	float:left;
+	margin:7% 5% 0%;
+}
+#part1{
+	float:left;
+	margin:0% 5%;
+	clear:both;
+}
+#part2{
+	width:100%;
+	float:left;
+	margin:0% 5%;
+}
+#header h1{
+	font-size:50px;
+}
+#header h2{
+	font-size:30px;
+}
+#part1 h5{
+	color:black;
+}
+#part2 h4{
+	color:black;
+}
+
+#footer{
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-top:1%;
+	padding:1% 0% 1% 0%;
+	background-image:url(http://pic1.win4000.com/wallpaper/f/57468bbf45802.jpg);
+}
