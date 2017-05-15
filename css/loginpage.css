@@ -60,7 +60,7 @@ ul{
 li{
 	display:inline;
 }
-@media ( max-width: 2000px ) {
+@media ( max-width: 3000px ) {
 	body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-image:url(http://pic1.5442.com/2015/0703/02/02.jpg);
@@ -105,7 +105,7 @@ h1,h2,h3{
 }
 #body{
 	width:400px;
-	margin:50% auto;
+	margin:45% auto;
 }
 #div1{
 	margin-top:5%;

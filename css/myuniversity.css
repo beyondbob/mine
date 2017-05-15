@@ -1,9 +1,6 @@
 body{
 	width:100%;
 	margin:0 auto;
-	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
-	background-attachment:fixed;
-	background-repeat:no-repeat;
 	font-size:85%;
 }
 div{
@@ -195,15 +192,27 @@ p{
 	text-align:center;
 	margin-top:1%;
 	padding:1% 0% 1% 0%;
-	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
 }
-@media ( max-width: 2000px ) {
+@media ( max-width: 3000px ) {
 	#div13{
 		float:left;
 		margin:7% 0% 0% 10%;
 	}
 	#div9{
 			margin:7% 0% 0% 10%;
+	}
+	body{
+		background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+	#footer{
+		background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);	
+	}
+	#body{
+		width:100%;
+		margin:0 auto;
 	}
 @media ( max-width: 1500px ) {
 	#div13{
@@ -213,6 +222,18 @@ p{
 	}
 		#div9{
 			margin:7% 0% 0% 8%;
+	}
+	body{
+		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494865372368&di=553b1682137e1c88230a07fbaeefa4e0&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110404%2F10023-110404034P737.jpg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+	#footer{
+		margin-top:5%;
+		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494865372368&di=553b1682137e1c88230a07fbaeefa4e0&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110404%2F10023-110404034P737.jpg);	
+		background-position:10% 40%;
+		background-size:100%;
 	}
 	#body{
 		width:100%;
