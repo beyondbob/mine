@@ -29,7 +29,7 @@ input{
 	background-image:url(../images/password.png);
 	background-position:5% 50%;
 	background-repeat:no-repeat;
-	background-color:#F0FFFF;
+	background-color:black;
 	padding:1px 50px;
 }
 #input3{
@@ -74,7 +74,10 @@ h1,h2,h3{
 .div{
 	margin-top:2%;
 }
-
+#body{
+	width:400px;
+	margin:0% auto;	
+}
 #div1{
 	margin-top:3%;
 }
@@ -87,12 +90,12 @@ h1,h2,h3{
 }
 }
 @media ( max-width: 1200px ) {
-		body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494856712135&di=e0aa133871b136f9c26779729dccdfe6&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F120907%2F219077-120ZGP53071.jpg);
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
+	body{
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494856712135&di=e0aa133871b136f9c26779729dccdfe6&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F120907%2F219077-120ZGP53071.jpg);
+		background-size:100% 100%;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
 }
 h1,h2,h3{
 	color:yellow;
@@ -100,7 +103,10 @@ h1,h2,h3{
 .div{
 	margin-top:15%;
 }
-
+#body{
+	width:400px;
+	margin:50% auto;
+}
 #div1{
 	margin-top:5%;
 }
