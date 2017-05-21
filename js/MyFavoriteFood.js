@@ -22,8 +22,8 @@ window.onresize=function(){
 		   $("a").width(w1);
 		   $("a").height(h1);
 	   }else{
-		   var height3=height*1.9;
-		   var height4=height*1.9;
+		   var height3=height*1.8;
+		   var height4=height*1.8;
 		   var size3=height/60+5;
 		   var size4=height/30+1;
 		   var li2=height/100+5;
@@ -69,8 +69,8 @@ $(function(){
 		   $("a").width(w1);
 		   $("a").height(h1);
 	   }else{
-		   var height3=height*1.9;
-		   var height4=height*1.9;
+		   var height3=height*1.8;
+		   var height4=height*1.8;
 		   var size3=height/60+5;
 		   var size4=height/30+1;
 		   var li2=height/100+5;
