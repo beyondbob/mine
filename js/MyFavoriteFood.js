@@ -1,8 +1,8 @@
 window.onresize=function(){
 	   var height = $("#div2").width(); 
 	   if(parseInt(height)>=500){
-		   var height1=height*1.2;
-		   var height2=height*1.2;
+		   var height1=height*1.4;
+		   var height2=height*1.4;
 		   var size1=height/100+15;
 		   var size2=height/50+16;
 		   var li1=height/100+15;
@@ -48,8 +48,8 @@ window.onresize=function(){
 $(function(){
    var height = $("#div2").width(); 
 	   if(parseInt(height)>=500){
-		   var height1=height*1.2;
-		   var height2=height*1.2;
+		   var height1=height*1.4;
+		   var height2=height*1.4;
 		   var size1=height/100+15;
 		   var size2=height/50+16;
 		   var li1=height/100+15;
@@ -100,6 +100,7 @@ $(document).ready(function(){
 	$(document.getElementById("span4").style.zIndex=-4);
 	$(document.getElementById("span5").style.zIndex=-5);
 	$(document.getElementById("span6").style.zIndex=-6);
+	$("p").slideUp();
   });
     $("#2").click(function(){
 	$(document.getElementById("span1").style.zIndex=-2);
@@ -108,6 +109,7 @@ $(document).ready(function(){
 	$(document.getElementById("span4").style.zIndex=-4);
 	$(document.getElementById("span5").style.zIndex=-5);
 	$(document.getElementById("span6").style.zIndex=-6);
+	$("p").slideUp();
   });
     $("#3").click(function(){
 	$(document.getElementById("span1").style.zIndex=-3);
@@ -116,6 +118,7 @@ $(document).ready(function(){
 	$(document.getElementById("span4").style.zIndex=-4);
 	$(document.getElementById("span5").style.zIndex=-5);
 	$(document.getElementById("span6").style.zIndex=-6);
+	$("p").slideUp();	
   });
     $("#4").click(function(){
 	$(document.getElementById("span1").style.zIndex=-4);
@@ -124,6 +127,7 @@ $(document).ready(function(){
 	$(document.getElementById("span4").style.zIndex=-1);
 	$(document.getElementById("span5").style.zIndex=-5);
 	$(document.getElementById("span6").style.zIndex=-6);
+	$("p").slideUp();	
   });
     $("#5").click(function(){
 	$(document.getElementById("span1").style.zIndex=-5);
@@ -132,6 +136,7 @@ $(document).ready(function(){
 	$(document.getElementById("span4").style.zIndex=-4);
 	$(document.getElementById("span5").style.zIndex=-1);
 	$(document.getElementById("span6").style.zIndex=-6);
+	$("p").slideUp();	
   });
     $("#6").click(function(){
 	$(document.getElementById("span1").style.zIndex=-6);
@@ -140,6 +145,7 @@ $(document).ready(function(){
 	$(document.getElementById("span4").style.zIndex=-4);
 	$(document.getElementById("span5").style.zIndex=-5);
 	$(document.getElementById("span6").style.zIndex=-1);
+	$("p").slideUp();	
   });
    $("button").click(function(){
         if($("p").is(":hidden")){

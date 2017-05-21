@@ -4,11 +4,12 @@ body{
 	right:0;
     background-color:#FDF5E6;
 	z-index:100;
+	overflow-x:hidden;
 	float:left;
 	position:absolute;
 }
 #nav{
-	width:100%;
+	width:102%;
     float:left;
 	background-color:#87CEFA;
 	float:left;
@@ -219,7 +220,7 @@ p{
 	z-index:10;
 	position:absolute;
 }
-@media screen and ( max-width: 2000px ) {
+@media  ( max-width: 2000px ) {
 	#a{
 		margin:5% 0 0 45%;
 	}
@@ -227,10 +228,10 @@ p{
 		margin-top:12%;
 	}
 	#footer{
-		margin-top:85%;
+		margin-top:125%;
 	}
 }
-@media  screen and ( max-width: 845px ) {
+@media  ( max-width: 845px ) {
 	#nav ul{
 		padding:3.5% 0;
 	}
@@ -257,7 +258,7 @@ p{
 		background-image:url(http://cdn.duitang.com/uploads/item/201506/01/20150601111116_RfWVX.jpeg);
 	}		
 	#footer{
-		margin-top:150%;
+		margin-top:190%;
 	}
 	
 }
