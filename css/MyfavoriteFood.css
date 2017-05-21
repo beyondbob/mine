@@ -1,9 +1,10 @@
 body{
 	width:100%;
 	margin:0;
+	right:0;
     background-color:#FDF5E6;
-	overflow-x:hidden;
 	z-index:100;
+	float:left;
 	position:absolute;
 }
 #nav{
@@ -59,12 +60,9 @@ button{
 	position:relative;
 	cursor:pointer;
 }
-#div0{
-	width:63%;
-	margin:0 auto;
-	padding:10% 0;
-}
+
 #div1{
+	margin-top:10%;
 	width:100%;
 	float:left;
 	position:absolute;
@@ -73,6 +71,7 @@ button{
 #div2{
 	width:60%;
 	margin-top:10%;
+	margin-left:20%;
 	overflow:hidden;
 	box-shadow:5px 5px 5px black;
 	border-radius:20px;
