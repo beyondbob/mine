@@ -7,10 +7,16 @@ body {
     background-size:100% 100%;
 	background-attachment:fixed;
 } 
+#div0{
+	padding-top:3%;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+}
 #div1{
 	float:left;
 	width:900px;
-	margin-top:10%;
+	margin-top:8%;
 	border:5px solid #20B2AA;
 	box-shadow:10px 10px 10px black;
 	border-radius:10px 10px 10px 10px;
@@ -83,6 +89,6 @@ h1,h2,h3,h4,h5{
 }
 @media ( max-width: 1200px ) {
 	body{
-		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494858604975&di=933b201cd68f8153159f6a6f43f44488&imgtype=0&src=http%3A%2F%2Ffile06.16sucai.com%2F2016%2F0227%2F99f0a785d403bd63d02b0a426ee5fba5.jpg);
+		background-image:url(http://img5.duitang.com/uploads/item/201509/12/20150912214131_LMCiE.thumb.700_0.jpeg);
 	}
 }

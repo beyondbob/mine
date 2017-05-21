@@ -1,0 +1,266 @@
+body{
+	width:100%;
+	margin:0;
+    background-color:#FDF5E6;
+	overflow-x:hidden;
+	z-index:100;
+	position:absolute;
+}
+#nav{
+	width:100%;
+    float:left;
+	background-color:#87CEFA;
+	float:left;
+}
+#nav ul { 
+	width:80%;
+	color:rgba(255,255,255,0.5);
+	margin:0 auto;
+	padding:2% 0;
+	display:flex;
+	justify-content:center;
+	list-style-type:none;  
+} 
+#nav li { 
+	float:left; 
+	margin-right:10%;
+	font-size:25px;
+	cursor:pointer;
+} 
+li:hover{ 
+	color:rgba(255,255,255,1);
+}
+li:active{
+	color:rgba(255,255,255,1);
+} 
+button{
+	   font-size:6px;
+	   color:white;
+	   background-image:url(http://pic38.nipic.com/20140224/11388144_162046679338_2.jpg);
+	   background-size:200% 400%;
+	   background-position:55% 50%;
+	   border-radius:20%;
+	   border:2px solid #F0FFF0;
+	   cursor:pointer;
+	   box-shadow:3px 3px 3px black;
+}
+#a{
+	margin:10% 0% 0% 45%;
+	float:left;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	box-shadow:3px 3px 3px black;
+	border:3px solid white;
+	background-image:url(../images/头像.jpg);
+	background-size:100% 100%;
+	background-position:40% 15%;
+	z-index:100;
+	position:relative;
+	cursor:pointer;
+}
+#div0{
+	width:63%;
+	margin:0 auto;
+	padding:10% 0;
+}
+#div1{
+	width:100%;
+	float:left;
+	position:absolute;
+	z-index:10;
+}
+#div2{
+	width:60%;
+	margin-top:10%;
+	overflow:hidden;
+	box-shadow:5px 5px 5px black;
+	border-radius:20px;
+	float:left;
+	position:absolute;
+	z-index:5;
+}
+#div3{
+	width:100%;
+	height:55%;
+	background-image:url(http://cp2.douguo.net/upload/caiku/b/b/0/yuan_bbe6a20e969d4d8688e2b4187a154650.jpeg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	float:left;
+}
+#div4{
+	width:100%;
+	height:45%;
+	background-color:white;
+	text-align:center;
+	float:left;
+	
+}
+#div5{
+	width:100%;
+	height:55%;
+	background-image:url(http://p.store.itangyuan.com/p/chapter/attachment/E_-SEgfw4A/EgfVetEUeBfUeg-sEB-T4Gu0K11a9uHLHcDP8MeQHu2vfhek8hmo41f.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	float:left;
+}
+#div6{
+	width:100%;
+	height:45%;
+	background-color:white;
+	text-align:center;
+	float:left;
+	
+}
+#div7{
+	width:100%;
+	height:55%;
+	background-image:url(http://s2.cdn.xiachufang.com/ff63430cccb211e5915c4d49387d86aa.jpg);
+	background-repeat:no-repeat;
+	background-position:0% 68%;
+	background-size:100% 130%;
+	float:left;
+}
+
+#div8{
+	width:100%;
+	height:45%;
+	background-color:white;
+	text-align:center;
+	float:left;	
+}
+#div9{
+	width:100%;
+	height:50%;
+	background-image:url(http://photocdn.sohu.com/20150228/mp4065185_1425127495956_4.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	float:left;
+}
+#div10{
+	width:100%;
+	height:50%;
+	background-color:white;
+	text-align:center;
+	float:left;	
+}
+#div11{
+	width:100%;
+	height:50%;
+	background-image:url(http://ali.xinshipu.cn/20160901/original/1472698286973.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	float:left;
+}
+#div12{
+	width:100%;
+	height:50%;
+	background-color:white;
+	text-align:center;
+	float:left;	
+}
+#div13{
+	width:100%;
+	height:50%;
+	background-image:url(http://cp2.douguo.net/upload/caiku/f/9/a/yuan_f931de94fe94ca4110c9e58c7d461c1a.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	float:left;
+}
+#div14{
+	width:100%;
+	height:50%;
+	background-color:white;
+	text-align:center;
+	float:left;	
+}
+
+h1{
+	margin:0;
+	padding-top:5%;
+}
+p{
+	color:lightblue;
+	display:none;
+
+}
+.span{
+	width:100%;
+	height:100%;
+	float:left;
+	position:absolute;
+}
+#span1{
+	z-index:-1;
+}
+#span2{
+	z-index:-2;
+}
+#span3{
+	z-index:-3;
+}
+#span4{
+	z-index:-4;
+}
+#span5{
+	z-index:-5;
+}
+#span6{
+	z-index:-6;
+}
+#footer{
+	width:100%;
+	float:left;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	margin-top:120%;
+	padding:1% 1% 1% 1%;
+	background-color:pink;
+	z-index:10;
+	position:absolute;
+}
+@media screen and ( max-width: 2000px ) {
+	#a{
+		margin:5% 0 0 45%;
+	}
+	#div2{
+		margin-top:12%;
+	}
+	#footer{
+		margin-top:85%;
+	}
+}
+@media  screen and ( max-width: 845px ) {
+	#nav ul{
+		padding:3.5% 0;
+	}
+	#div2{
+		border-radius:10x 10px 20px 20px;
+		margin-top:22%;
+	}
+	#div3{
+		background-image:url(http://rj2.douguo.net/upload/caiku/2/c/f/2cfb662ff04cccb946475dc6a8f2115f.jpg);
+	}
+	#div5{
+		background-image:url(http://bigegg.ezcity.com.tw/hyfiles/bigegg-photo/hotnews/leplaisir/leplaisir_20120803_04.jpg);
+	}
+	#div7{
+		background-image:url(http://fj.sinaimg.cn/9/2012-05-18/U4799P911T9D10507F123DT20120518103611.jpg);
+	}
+	#div9{
+		background-image:url(http://s1.sinaimg.cn/bmiddle/0033B5rlgy6PjfD47PW60&690);
+	}
+	#div11{
+		background-image:url(http://www.sxdaily.com.cn/NMediaFile/2014/0730/SXRB201407300604000083640460390.jpg);
+	}	
+	#div13{
+		background-image:url(http://cdn.duitang.com/uploads/item/201506/01/20150601111116_RfWVX.jpeg);
+	}		
+	#footer{
+		margin-top:150%;
+	}
+	
+}
+
+
