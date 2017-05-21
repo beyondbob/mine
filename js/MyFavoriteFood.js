@@ -1,6 +1,6 @@
 window.onresize=function(){
 	   var height = $("#div2").width(); 
-	   if(parseInt(height)>=500){
+	   if(parseInt(height)>=600){
 		   var height1=height*1.4;
 		   var height2=height*1.4;
 		   var size1=height/100+15;
@@ -47,7 +47,7 @@ window.onresize=function(){
 }
 $(function(){
    var height = $("#div2").width(); 
-	   if(parseInt(height)>=500){
+	   if(parseInt(height)>=600){
 		   var height1=height*1.4;
 		   var height2=height*1.4;
 		   var size1=height/100+15;

@@ -231,7 +231,7 @@ p{
 		margin-top:125%;
 	}
 }
-@media  ( max-width: 845px ) {
+@media  ( max-width: 1200px ) {
 	#nav ul{
 		padding:3.5% 0;
 	}
