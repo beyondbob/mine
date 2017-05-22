@@ -94,8 +94,6 @@ button{
 	background-color:white;
 	text-align:center;
 	float:left;
-	display:flex;
-	justify-content:center;
 	
 }
 #div5{
@@ -111,8 +109,6 @@ button{
 	height:45%;
 	background-color:white;
 	text-align:center;
-	display:flex;
-	justify-content:center;
 	float:left;
 	
 }
@@ -131,8 +127,6 @@ button{
 	height:45%;
 	background-color:white;
 	text-align:center;
-	display:flex;
-	justify-content:center;
 	float:left;	
 }
 #div9{
@@ -148,8 +142,6 @@ button{
 	height:50%;
 	background-color:white;
 	text-align:center;
-	display:flex;
-	justify-content:center;
 	float:left;	
 }
 #div11{
@@ -165,8 +157,6 @@ button{
 	height:50%;
 	background-color:white;
 	text-align:center;
-	display:flex;
-	justify-content:center;
 	float:left;	
 }
 #div13{
@@ -182,8 +172,6 @@ button{
 	height:50%;
 	background-color:white;
 	text-align:center;
-	display:flex;
-	justify-content:center;
 	float:left;	
 }
 
