@@ -94,6 +94,8 @@ button{
 	background-color:white;
 	text-align:center;
 	float:left;
+	display:flex;
+	justify-content:center;
 	
 }
 #div5{
@@ -109,6 +111,8 @@ button{
 	height:45%;
 	background-color:white;
 	text-align:center;
+	display:flex;
+	justify-content:center;
 	float:left;
 	
 }
@@ -127,6 +131,8 @@ button{
 	height:45%;
 	background-color:white;
 	text-align:center;
+	display:flex;
+	justify-content:center;
 	float:left;	
 }
 #div9{
@@ -142,6 +148,8 @@ button{
 	height:50%;
 	background-color:white;
 	text-align:center;
+	display:flex;
+	justify-content:center;
 	float:left;	
 }
 #div11{
@@ -157,6 +165,8 @@ button{
 	height:50%;
 	background-color:white;
 	text-align:center;
+	display:flex;
+	justify-content:center;
 	float:left;	
 }
 #div13{
@@ -172,6 +182,8 @@ button{
 	height:50%;
 	background-color:white;
 	text-align:center;
+	display:flex;
+	justify-content:center;
 	float:left;	
 }
 
@@ -208,7 +220,7 @@ p{
   background: none repeat scroll 0 0 #f9f9f9;
 }
 .sk-spinner-wordpress.sk-spinner {
-  background-color: #3366CC;
+  background-color: #6A5ACD;
   width: 30px;
   height: 30px;
   border-radius: 30px;
