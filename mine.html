@@ -5,16 +5,44 @@
 		<title>自我介绍</title>
 		<script src="js/jquery.js"></script>		
 		<script src="js/custom.js"></script>
+		<script src="js/aside.js"></script>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/aside.css">
 		<link href="css/mine.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<div class="side-back" style="display: none;"></div>
+		<div class="side-area">
+			<div class="side-btn"></div>
+			<div id="aside0"></div>
+			<div class="side-time">
+				<div class="side-week">星期三</div>
+				<div class="side-data">2017/5/24</div>
+			</div>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit1.jpg" style="width:40px;height:40px;float:left;">
+				<a href="homepage.html"><h4>首页</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit2.jpg" style="width:40px;height:40px;float:left;">
+				<a href="myuniversity.html"><h4>我的大学</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit3.jpg" style="width:40px;height:40px;float:left;">
+				<a href="MyfavoriteFood.html"><h4>我喜欢的食物</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit4.jpg" style="width:40px;height:40px;float:left;">
+				<a href="LoginPage.html"><h4>退出</h4></a>
+			</div><hr>
+		</div>
 		<div class="preloader">
 			<div class="sk-spinner sk-spinner-wordpress">
 				<span class="sk-inner-circle"></span>
 			</div>
 		</div>
 		<div style="width:900px;margin:0 auto;">
-		    <div id="div0"><h1 style="color:white;"><strong>自我介绍</strong></h1></div>
+			<div id="div0"><h1 style="color:white;"><strong>自我介绍</strong></h1></div>
 			<div id="div1">
 				<div id="header" style="width:100%;">
 				  <div width="30%" style="float:left;">
@@ -184,7 +212,14 @@
 			</div>
 		</div>
 		<div id="footer">
-			<h3 style="color:white">声明：以上信息为真实信息，只提供浏览，禁止转载用于非法用途，一经发现将追究法律责任</h3>
+			<ul class="social-icons">
+				<li><a href="http://facebook.com" class="fa fa-facebook"></a></li>
+				<li><a href="https://plus.google.com" class="fa fa-google-plus"></a></li>
+				<li><a href="http://twitter.com" class="fa fa-twitter"></a></li>
+				<li><a href="https://github.com" class="fa fa-github"></a></li>
+				<li><a href="http://web2.qq.com" class="fa fa-qq"></a></li>
+				<li><a href="https://wx.qq.com" class="fa fa-wechat"></a></li>
+			</ul>
 		</div>
 	</body>
 </html>

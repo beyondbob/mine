@@ -2,7 +2,7 @@ body{
 	width:100%;
 	margin:0;
 	right:0;
-    background-color:#FDF5E6;
+    background-color:#FFE4E1;
 	z-index:100;
 	overflow-x:hidden;
 	float:left;
@@ -35,6 +35,9 @@ li:hover{
 li:active{
 	color:rgba(255,255,255,1);
 } 
+.side-area h5{
+	font-size:5px;
+}
 button{
 	   font-size:6px;
 	   color:white;
@@ -270,33 +273,69 @@ p{
 #span6{
 	z-index:-6;
 }
-#footer{
-	width:100%;
-	float:left;
-	display:flex;
-	text-align:center;
-	justify-content:center;
-	margin-top:120%;
-	padding:1% 1% 1% 1%;
-	background-color:pink;
-	z-index:10;
-	position:absolute;
+.social-icons {
+  padding: 0;
+  margin: 0;
 }
+
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+  margin:0 5%;
+}
+.social-icons li a {
+  background: #3366CC;
+  border-radius: 50%;
+  border:1px solid #CAE1FF;
+  box-shadow:5px 5px 5px black;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+#footer{
+  color: #f9f9f9;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  float:left;
+  clear:both;
+  width:100%;
+}
+
 @media  ( max-width: 2000px ) {
 	#a{
 		margin:5% 0 0 45%;
 	}
+	.social-icons li a {
+		font-size:35px;
+		width: 60px;
+		height: 60px;
+        line-height: 60px;
+	}
+	
 	#div2{
 		margin-top:12%;
 	}
 	#footer{
-		margin-top:125%;
+		margin-top:90%;
 	}
+	
 }
 @media  ( max-width: 1200px ) {
 	#nav ul{
 		padding:3.5% 0;
 	}
+	.social-icons li a {
+		width: 40px;
+		height: 40px;
+		font-size: 18px;
+		line-height: 40px;
+	}
+	
 	#div2{
 		border-radius:10x 10px 20px 20px;
 		margin-top:22%;
@@ -320,7 +359,7 @@ p{
 		background-image:url(http://cdn.duitang.com/uploads/item/201506/01/20150601111116_RfWVX.jpeg);
 	}		
 	#footer{
-		margin-top:190%;
+		margin-top:110%;
 	}
 	
 }

@@ -19,8 +19,8 @@ window.onresize=function(){
 		   $("#nav").height(nav1);
 		   $("button").width(ButtonW);
 		   $("button").height(ButtonH);
-		   $("a").width(w1);
-		   $("a").height(h1);
+		   $("#a").width(w1);
+		   $("#a").height(h1);
 	   }else{
 		   var height3=height*1.8;
 		   var height4=height*1.8;
@@ -40,8 +40,8 @@ window.onresize=function(){
 		   $("#nav").height(nav2);
 		   $("button").width(ButtonW2);
 		   $("button").height(ButtonH2);	
-           $("a").width(w1);
-		   $("a").height(h1);		   
+           $("#a").width(w1);
+		   $("#a").height(h1);		   
 	   }
 
 }
@@ -66,8 +66,8 @@ $(function(){
 		   $("#nav").height(nav1);
 		   $("button").width(ButtonW);
 		   $("button").height(ButtonH);
-		   $("a").width(w1);
-		   $("a").height(h1);
+		   $("#a").width(w1);
+		   $("#a").height(h1);
 	   }else{
 		   var height3=height*1.8;
 		   var height4=height*1.8;
@@ -87,8 +87,8 @@ $(function(){
 		   $("#nav").height(nav2);
 		   $("button").width(ButtonW2);
 		   $("button").height(ButtonH2);	
-		   $("a").width(w1);
-		   $("a").height(h1);		   
+		   $("#a").width(w1);
+		   $("#a").height(h1);		   
 	   }
 
 })

@@ -3,12 +3,40 @@
 	<head>
 		<meta charset="utf-8">
 		<title>My Favorite Food</title>
-		<link href="css/MyfavoriteFood.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/MyfavoriteFood.css">
+		<link rel="stylesheet" href="css/aside.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/MyFavoriteFood.js"></script>		
 		<script src="js/custom.js"></script>
+		<script src="js/aside.js"></script>
 	</head>
 	<body>
+		<div class="side-back" style="display: none;"></div>
+		<div class="side-area">
+			<div class="side-btn"></div>
+			<div id="aside0"></div><hr>
+			<div class="side-time">
+				<div class="side-week">星期三</div>
+				<div class="side-data">2017/5/24</div>
+			</div>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit1.jpg" style="width:40px;height:40px;float:left;">
+				<a href="homepage.html"><h5>首页</h5></a>
+			</div><hr>			
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit2.jpg" style="width:40px;height:40px;float:left;">
+				<a href="myuniversity.html"><h5>我的大学</h5></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit3.jpg" style="width:40px;height:40px;float:left;">
+				<a href="mine.html"><h5>我的介绍</h5></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit4.jpg" style="width:40px;height:40px;float:left;">
+				<a href="LoginPage.html"><h5>退出</h5></a>
+			</div><hr>
+		</div>
 		<div class="preloader">
 			<div class="sk-spinner sk-spinner-wordpress">
 				<span class="sk-inner-circle"></span>
@@ -92,7 +120,14 @@
 		 </div>	
 		</div>
 		<div id="footer">
-			<h4>声明：以上信息为真实信息，只提供浏览，禁止转载用于非法用途，一经发现将追究法律责任</h3>
+			<ul class="social-icons">
+				<li><a href="http://facebook.com" class="fa fa-facebook"></a></li>
+				<li><a href="https://plus.google.com" class="fa fa-google-plus"></a></li>
+				<li><a href="http://twitter.com" class="fa fa-twitter"></a></li>
+				<li><a href="https://github.com" class="fa fa-github"></a></li>
+				<li><a href="http://web2.qq.com" class="fa fa-qq"></a></li>
+				<li><a href="https://wx.qq.com" class="fa fa-wechat"></a></li>
+			</ul>
 		</div>
 	</body>
 			

@@ -1,0 +1,69 @@
+.side-back{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1000;
+}
+.side-area{
+    position: fixed;
+    top: 0;
+	background-color:white;
+    right: -225px;
+    width: 200px;
+    height: 100%;
+    padding: 20px 12px 25px;
+    z-index: 1001;
+}
+.side-btn{
+    width: 50px;
+    height: 65px;
+    position: absolute;
+    top: 120px;
+    left: -48px;
+	border-radius:50px 0px 0px 50px;
+    background-image:url(http://img.taopic.com/uploads/allimg/140418/318749-14041Q40U037.jpg);
+	box-shadow:0px 5px 5px black;
+    cursor: pointer;
+	background-position:-5px 1px;
+	background-size: 65px 65px;
+}
+#aside0{
+	width:100%;
+	height:150px;
+	border:5px solid #6A5ACD;
+	background-size:105% 105%;
+	background-image:url(http://pic41.nipic.com/20140518/4135003_102025861000_2.jpg);
+	margin-bottom:80px;
+	float:left;
+	clear:both;
+}
+.side-time{
+    background:  linear-gradient(0deg,white,#00CD66);
+    position: absolute;
+    bottom: 75px;
+    left: 12px;
+    height: 40px;
+    width: 200px;   
+}
+.side-time>div{
+    text-align: center;
+    font-size: 12px;
+    margin: 4px
+}
+.side-week{
+    color: #eb6100
+}
+.side-area h4,.side-area h5{
+	color:#6495ED;
+	font-size:15px;
+	position:relative;
+	left:5%;
+	bottom:9px;
+}
+a{
+text-decoration:none;
+}

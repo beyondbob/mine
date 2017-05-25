@@ -6,7 +6,9 @@ body{
 div{
 	float:left;
 }
-
+#body{
+	width:100%;
+}
 .preloader {
   position: fixed;
   top: 0;
@@ -247,14 +249,43 @@ p{
     -ms-opacity:0.1;
 	opacity:0.1;
 }
+
+.social-icons {
+  padding:0;
+  margin: 0;
+}
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+  margin:0 5%;
+}
+.social-icons li a {
+  background: #3366CC;
+  border-radius: 50%;
+  border:1px solid #CAE1FF;
+  box-shadow:5px 5px 5px black;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+.social-icons li a:hover {
+  background: #202020;
+  color: #fff;
+}
 #footer{
 	width:100%;
 	float:left;
-	color:red;
-	display:flex;
-	justify-content:center;
+	text-align:center;
 	margin-top:1%;
-	padding:1% 0% 1% 0%;
+	padding:2% 0% 2% 0%;
 }
 @media ( max-width: 3000px ) {
 	#div13{
@@ -269,9 +300,6 @@ p{
 		background-attachment:fixed;
 		background-repeat:no-repeat;
 		background-size:100% 100%;
-	}
-	#footer{
-		background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);	
 	}
 	#body{
 		width:100%;
@@ -294,9 +322,6 @@ p{
 	}
 	#footer{
 		margin-top:5%;
-		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494865372368&di=553b1682137e1c88230a07fbaeefa4e0&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F110404%2F10023-110404034P737.jpg);	
-		background-position:10% 40%;
-		background-size:100%;
 		padding:0 10%;
 	}
 	#body{
