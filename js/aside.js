@@ -22,7 +22,7 @@ $('.side-back').on('click', function () {
 
 
 });
-(function () {
+$(function () {
     var time = new Date();
     var y = time.getFullYear();
     var m = time.getMonth() + 1;
