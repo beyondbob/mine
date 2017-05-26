@@ -243,7 +243,7 @@ p{
 .social-icons li {
   display: inline-block;
   list-style: none;
-  margin:0 6%;
+  margin:0 5.5%;
 }
 .social-icons li a {
   background: #3366CC;
@@ -296,7 +296,7 @@ p{
 			margin:7% 0% 0% 8%;
 	}
 	#footer{
-		padding:0 3%;
+		padding:0 2%;
 	}
 	#body{
 		width:100%;
