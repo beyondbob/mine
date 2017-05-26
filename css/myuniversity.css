@@ -2,6 +2,7 @@ body{
 	width:100%;
 	margin:0 auto;
 	font-size:85%;
+	background-image:url(http://desk.fd.zol-img.com.cn/g5/M00/04/07/ChMkJ1XT8QiIYVUpAAcvEz4ktFUAAAR7QAwFfgABy8r762.jpg);
 	background-size:100% 100%;
 	background-attachment:fixed;
 	background-repeat:no-repeat;
@@ -238,7 +239,7 @@ p{
 }
 
 .social-icons {
-  padding:0 20%;
+  padding:0 10%;
   margin: 0;
 }
 .social-icons li {
@@ -283,9 +284,6 @@ p{
 	#div9{
 			margin:7% 0% 0% 10%;
 	}
-	body{
-		background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
-	}
 	#body{
 		width:100%;
 		margin:0 auto;
@@ -298,9 +296,6 @@ p{
 	}
 		#div9{
 			margin:7% 0% 0% 8%;
-	}
-	body{
-		background-image:url(http://cdn.duitang.com/uploads/item/201508/29/20150829105912_sjuKP.thumb.700_0.jpeg);
 	}
 	#body{
 		width:100%;
