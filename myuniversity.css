@@ -1,10 +1,7 @@
 body{
 	width:100%;
 	margin:0 auto;
-	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
-	background-attachment:fixed;
-	background-size:100% 100%;
-	background-repeat:no-repeat;
+	font-size:85%;
 }
 div{
 	float:left;
@@ -69,21 +66,26 @@ div{
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } 
 }
+p{
+	font-size:1.2em;
+	display:block;
+}
 #div{
 	width:300px;
-	margin:7% 10%;
+	margin:7% 0% 0% 10%;
 	float:left;
+	
 }
 #div0{
 	width:350px;
     float:left;
-    margin-top:7%;
-	margin-right:10%;	
+	margin:7% 0% 0% 10%;	
 }
 #div00{
 	width:350px;
     float:left;
-    margin-top:7%;	
+	clear:left;
+	margin:7% 0% 0% 10%;	
 }
 #div1{
 	width:300px;
@@ -145,7 +147,7 @@ div{
 	border-radius:5%;
     float:left;
     margin-top:5%;
-	padding:2% 8%;
+	padding:2% 20px;
 	background-color:#90EE90;
 	box-shadow:10px 10px 10px black;
 }
@@ -175,8 +177,7 @@ div{
 	height:500px;
 	border:2px solid white;	
 	border-radius:5%;
-    float:left;
-	margin-top:10%;
+    float:left;	
 	box-shadow:10px 10px 10px black;
 }
 #div10{
@@ -231,6 +232,7 @@ div{
     -ms-opacity:0.1;
 	opacity:0.1;
 }
+
 .social-icons {
   padding:0;
   margin: 0;
@@ -264,9 +266,49 @@ div{
 #footer{
 	width:100%;
 	float:left;
-	color:red;
 	text-align:center;
 	margin-top:1%;
-	padding:1% 0% 1% 0%;
-	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+	padding:2% 0% 2% 0%;
+}
+@media ( max-width: 3000px ) {
+	#div13{
+		float:left;
+		margin:7% 0% 0% 10%;
+	}
+	#div9{
+			margin:7% 0% 0% 10%;
+	}
+	body{
+		background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+	#body{
+		width:100%;
+		margin:0 auto;
+	}
+@media ( max-width: 1500px ) {
+	#div13{
+		float:left;
+		clear:left;
+		margin:7% 0% 0% 8%;
+	}
+		#div9{
+			margin:7% 0% 0% 8%;
+	}
+	body{
+		background-image:url(http://cdn.duitang.com/uploads/item/201508/29/20150829105912_sjuKP.thumb.700_0.jpeg);
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:120% 100%;
+	}
+	#footer{
+		margin-top:5%;
+		padding:0 10%;
+	}
+	#body{
+		width:100%;
+		padding:0 10%;
+	}
 }
