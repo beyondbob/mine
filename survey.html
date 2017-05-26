@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>survey</title>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			  $("form").submit(function(e){
+				alert("提交成功！\n非常感谢！");
+			  });
+			});
+		</script>
+		<script src="js/custom.js"></script>
+		<script type="text/javascript" src="js/aside.js"></script>
+		<link rel="stylesheet" href="css/aside.css">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+	</head>
+	<body>
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-wordpress">
+				<span class="sk-inner-circle"></span>
+			</div>
+		</div>
+		<div class="side-back" style="display: none;"></div>
+		<div class="side-area">
+			<div class="side-btn"></div>
+			<div id="aside0"></div>
+			<div class="side-time">
+				<div class="side-week">星期三</div>
+				<div class="side-data">2017/5/24</div>
+			</div>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit1.jpg" style="width:40px;height:40px;float:left;">
+				<a href="homepage.html"><h4>首页</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit2.jpg" style="width:40px;height:40px;float:left;">
+				<a href="mine.html"><h4>我的介绍</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit3.jpg" style="width:40px;height:40px;float:left;">
+				<a href="myuniversity.html"><h4>我的大学</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit4.jpg" style="width:40px;height:40px;float:left;">
+				<a href="MyfavoriteFood.html"><h4>我喜欢的食物</h4></a>
+			</div><hr>
+			<div style="width:100%;float:left;clear:both;margin-top:5px;">
+			    <img src="images/fruit5.jpg" style="width:40px;height:40px;float:left;">
+				<a href="LoginPage.html"><h4>退出</h4></a>
+			</div><hr>
+		</div>
+		<h1>反馈表</h1>
+		<div class="login-01">
+			<form name="input" action="" method="get">
+				<ul>
+					<li class="first">
+						<a href="#" class=" icon user"></a><input type="text" class="text"  placeholder="Name" required="" >
+						<div class="clear"></div>
+					</li>
+					<li class="first">
+						<a href="#" class=" icon email"></a><input type="email" class="text" placeholder="Emile" required="">
+						<div class="clear"></div>
+					</li>
+					<li class="first">
+						<a href="#" class=" icon phone"></a><input type="tel" class="text"  placeholder="Phone" required="">
+						<div class="clear"></div>
+					</li>
+					<li class="second">
+					<a href="#" class=" icon msg"></a><textarea value="Message"  placeholder="Comments" required=""></textarea>
+					<div class="clear"></div>
+					</li>
+				</ul>
+				<input type="submit" value="Submit" >
+				<div class="clear"></div>
+			</form>
+		</div>
+  
+	</body>
+</html>
