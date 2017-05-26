@@ -2,7 +2,10 @@ body{
 	width:100%;
 	margin:0 auto;
 	font-size:85%;
-	background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:120% 100%;
 }
 div{
 	float:left;
@@ -235,7 +238,7 @@ p{
 }
 
 .social-icons {
-  padding:0;
+  padding:0 20%;
   margin: 0;
 }
 .social-icons li {
@@ -280,7 +283,9 @@ p{
 	#div9{
 			margin:7% 0% 0% 10%;
 	}
-
+	body{
+		background-image:url(http://pic1.win4000.com/wallpaper/2/5582582c1aa09.jpg);
+	}
 	#body{
 		width:100%;
 		margin:0 auto;
@@ -294,7 +299,9 @@ p{
 		#div9{
 			margin:7% 0% 0% 8%;
 	}
-
+	body{
+		background-image:url(http://cdn.duitang.com/uploads/item/201508/29/20150829105912_sjuKP.thumb.700_0.jpeg);
+	}
 	#body{
 		width:100%;
 		padding:0 10%;
