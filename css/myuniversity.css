@@ -238,12 +238,13 @@ p{
 
 .social-icons {
   padding:0;
-  margin: 0;
+  margin: 0 2%;
 }
 .social-icons li {
   display: inline-block;
   list-style: none;
-  margin:0 5.5%;
+  margin:0 5%;
+  
 }
 .social-icons li a {
   background: #3366CC;
@@ -271,7 +272,7 @@ p{
 	float:left;
 	text-align:center;
 	margin-top:1%;
-	padding:2% 0% 2% 0%;
+	padding:2% 0%;
 
 }
 @media ( max-width: 3000px ) {
@@ -294,9 +295,6 @@ p{
 	}
 		#div9{
 			margin:7% 0% 0% 8%;
-	}
-	#footer{
-		padding:0 2%;
 	}
 	#body{
 		width:100%;
