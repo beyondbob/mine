@@ -141,66 +141,66 @@
 ### 1.实现各个浏览器兼容
 #### 为了实现基本各个浏览器浏览器兼容，我使用了css3的@media 元素，定义了不同宽度时不同的元素效果。
 ##### **关键代码**
->@media ( max-width: 2000px ) {
-	body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image:url(http://pic1.5442.com/2015/0703/02/02.jpg);
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-}
-@media  ( max-width:1200px) {
-	body{
-		font-family: "Helvetica Neue", Helvetica, Arial,      sans-serif;
-		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494856712135&di=e0aa133871b136f9c26779729dccdfe6&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F120907%2F219077-120ZGP53071.jpg);
-		background-size:100% 100%;
-		background-repeat:no-repeat;
-		background-attachment:fixed;
+>@media ( max-width: 2000px ) {  
+	body{  
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
+	background-image:url(http://pic1.5442.com/2015/0703/02/02.jpg);  
+	background-size:100% 100%;  
+	background-repeat:no-repeat;  
+	background-attachment:fixed;  
+}  
+@media  ( max-width:1200px) {  
+	body{  
+		font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;  
+		background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1494856712135&di=e0aa133871b136f9c26779729dccdfe6&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F120907%2F219077-120ZGP53071.jpg);  
+		background-size:100% 100%;  
+		background-repeat:no-repeat;  
+		background-attachment:fixed;  
 }
 
 ### 2.实现页面内不同内容转变
 #### 为了实现转变，我使用了css的z-index元素，再加上js的click事件，实现点击改变层的位置。
 #### **关键代码**
->\$(document).ready(function(){
-  \$("#1").click(function(){
-	\$(document.getElementById("span1").style.zIndex=-1);
-	\$(document.getElementById("span2").style.zIndex=-2);
-	\$(document.getElementById("span3").style.zIndex=-3);
-	\$(document.getElementById("span4").style.zIndex=-4);
-	\$(document.getElementById("span5").style.zIndex=-5);
-	\$(document.getElementById("span6").style.zIndex=-6);
-	\$("p").slideUp();
-  });
+>\$(document).ready(function(){  
+  \$("#1").click(function(){  
+	\$(document.getElementById("span1").style.zIndex=-1);  
+	\$(document.getElementById("span2").style.zIndex=-2);  
+	\$(document.getElementById("span3").style.zIndex=-3);  
+	\$(document.getElementById("span4").style.zIndex=-4);  
+	\$(document.getElementById("span5").style.zIndex=-5);  
+	\$(document.getElementById("span6").style.zIndex=-6);  
+	\$("p").slideUp();  
+  });  
  
  ---
  
 ### 3.实现内容大小随页面大小变化
 #### 为了实现像字体，图片大小随页面大小变化，我使用了js的*window.onresize*元素。
 #### **关键代码**
- >window.onresize=function(){
-	   var height = \$("#div2").width(); 
-	   if(parseInt(height)>=600){
-		   var height1=height*1.4;
-		   var height2=height*1.4;
-		   var size1=height/100+15;
-		   var size2=height/50+16;
-		   var li1=height/100+15;
-		   \$("#div2").height(height1);
-		   \$("#div1").height(height2);
-		   \$("body").css("font-size",size1);
-		   \$("p").css("font-size",size2);
-		   \$("li").css("font-size",li1);
-	   }else{
-		   var height3=height*1.8;
-		   var height4=height*1.8;
-		   var size3=height/60+5;
-		   var size4=height/30+1;
-		   var li2=height/100+5;
-		   \$("#div2").height(height3);
-		   \$("#div1").height(height4);
-		   \$("body").css("font-size",size3);	
-		   \$("p").css("font-size",size4);	
-		   \$("li").css("font-size",li2);
+ >window.onresize=function(){  
+	   var height = \$("#div2").width();   
+	   if(parseInt(height)>=600){  
+		   var height1=height*1.4;  
+		   var height2=height*1.4;  
+		   var size1=height/100+15;  
+		   var size2=height/50+16;  
+		   var li1=height/100+15;  
+		   \$("#div2").height(height1);  
+		   \$("#div1").height(height2);  
+		   \$("body").css("font-size",size1);  
+		   \$("p").css("font-size",size2);  
+		   \$("li").css("font-size",li1);  
+	   }else{  
+		   var height3=height*1.8;  
+		   var height4=height*1.8;  
+		   var size3=height/60+5;  
+		   var size4=height/30+1;  
+		   var li2=height/100+5;  
+		   \$("#div2").height(height3);  
+		   \$("#div1").height(height4);  
+		   \$("body").css("font-size",size3);	  
+		   \$("p").css("font-size",size4);  	
+		   \$("li").css("font-size",li2);  
 	   }
 
 }
